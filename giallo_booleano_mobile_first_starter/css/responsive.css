@@ -9,11 +9,19 @@
         justify-content: start;
     }
 
-    .recipe-origin {
+    .recipe-origin{
         display: inline;
     }
 
     #logo{
         font-size: 4em;
+    }
+
+    .quick-notes ul{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10%;
     }
 }
