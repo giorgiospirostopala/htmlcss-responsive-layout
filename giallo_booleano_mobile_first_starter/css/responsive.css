@@ -9,5 +9,11 @@
         justify-content: start;
     }
 
+    .recipe-origin {
+        display: inline;
+    }
 
+    #logo{
+        font-size: 4em;
+    }
 }
