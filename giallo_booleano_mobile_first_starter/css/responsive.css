@@ -24,4 +24,17 @@
         flex-wrap: wrap;
         gap: 10%;
     }
+
+    .btn{
+        width: 60%;
+    }
+
+    .ads{
+        display: flex;
+    }
+
+    .clearfix img{
+        float: left;
+        margin-right: 15px;
+    }
 }
