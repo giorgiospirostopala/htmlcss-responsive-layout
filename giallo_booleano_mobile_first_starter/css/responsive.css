@@ -13,8 +13,8 @@
         display: inline;
     }
 
-    #logo{
-        font-size: 4em;
+    .recipe-name{
+        font-size: 2em;
     }
 
     .quick-notes ul{
@@ -37,4 +37,37 @@
         float: left;
         margin-right: 15px;
     }
+}
+
+@media screen and (min-width: 922px){
+    .recipe-name{
+        font-size: 3em;
+    }
+
+    .quick-notes ul{
+        display: block;
+    }
+
+    .recipe-card{
+        display: flex;
+    }
+
+    .recipe-video{
+        height: auto;
+        flex-basis: 75%;
+        /* non sono riuscito a mantenere la totale visualizzazione della copertina del video, che viene tagliata */
+    }
+
+    .social-networks .label{
+        display: inline;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+    }
+
+    
 }
