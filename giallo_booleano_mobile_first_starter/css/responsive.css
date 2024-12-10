@@ -1,4 +1,14 @@
 /* Soluzione qui */
+@media screen and (min-width: 576px) {
+    .clearfix img{
+        float: left;
+        margin-right: 15px;
+    }
+
+    .btn{
+        width: 40%;
+    }
+}
 
 @media screen and (min-width: 768px){
     body{
