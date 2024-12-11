@@ -14,6 +14,7 @@
     main{
         padding: 30px;
     }
+    /* credevo andasse messo al body */
 
     #topbar{
         justify-content: start;
@@ -30,9 +31,12 @@
     .quick-notes ul{
         display: flex;
         align-items: center;
-        justify-content: flex-start;
         flex-wrap: wrap;
         gap: 10%;
+    }
+
+    .quick-notes ul li{
+        flex-basis: calc(33% - 10%);
     }
 
     .btn{
